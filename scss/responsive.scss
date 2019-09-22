@@ -1,0 +1,130 @@
+// Breakpoints
+$xsm: 450px;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+
+/*Responsive Typography*/
+@media (max-width: $lg) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: $md) {
+  html {
+    font-size: 12.5px;
+  }
+}
+
+@media (max-width: $sm) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: $xsm) {
+  html {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: $xl) {
+  .delivery-section {
+    height: 138vh;
+  }
+}
+
+@media (max-width: $lg) {
+  // Header section
+  // .header-section {
+  //   min-height: 550px;
+  // }
+
+  .report-section {
+    height: 75vh;
+  }
+
+  .report-section__title {
+    line-height: 1.4;
+  }
+
+  //DELIVERY SECTION
+  .delivery-section {
+    height: 135vh;
+  }
+}
+
+@media (max-width: $md) {
+  .report-section {
+    height: 105vh;
+    text-align: center;
+  }
+
+  .report-image {
+    top: 50%;
+    right: 8% !important;
+    height: 350px;
+  }
+
+  .report-image {
+    top: 300px;
+    right: 15%;
+    width: 36rem;
+    height: 20rem;
+  }
+
+  // PROCESS SECTION
+  .process-section {
+    min-height: 550px;
+  }
+
+  .process-section__desc {
+    padding-top: 60px;
+  }
+
+  // DELIVERY SECTION
+  .delivery-section {
+    height: 240vh;
+    margin: 0;
+  }
+}
+
+@media (max-width: 1034px) {
+  .sponsor-section {
+    height: 45vh;
+  }
+}
+
+@media (max-width: 1010px) {
+  .navbar > .navbar-nav {
+    display: none;
+  }
+}
+
+@media (min-width: 1010px) {
+  .nav-menu {
+    display: none;
+  }
+}
+
+@media (max-width: 665px) {
+  .header-section {
+    min-height: 600px;
+  }
+
+  .sponsor-section {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 525px) {
+  .sponsor-section {
+    height: 60vh;
+  }
+
+  .delivery-section {
+    height: 225vh;
+  }
+}
