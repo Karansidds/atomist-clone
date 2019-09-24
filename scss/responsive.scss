@@ -30,9 +30,18 @@ $xl: 1200px;
   }
 }
 
+// END
+
 @media (max-width: $xl) {
+
+  // DELIVERY SECTION
   .delivery-section {
     height: 138vh;
+  }
+
+  // ATOMIST USAGE
+  .platform-diagram {
+    margin-left: 80px;
   }
 }
 
@@ -53,6 +62,15 @@ $xl: 1200px;
   //DELIVERY SECTION
   .delivery-section {
     height: 135vh;
+  }
+
+  // ATOMIST USAGE
+  .platform-diagram {
+    margin-left: 0px;
+  }
+
+  .platform-diagram {
+    margin-left: 20px;
   }
 }
 
@@ -88,6 +106,23 @@ $xl: 1200px;
   .delivery-section {
     height: 240vh;
     margin: 0;
+    min-height: 1450px;
+  }
+
+  // PLATFORM SECTION
+  .section-platform {
+    height: 100vh;
+    text-align: center;
+  }
+
+  .platform-diagram {
+    margin-left: 0px;
+  }
+
+  // ATOMIST USAGE
+  .atomist-usage {
+    height: 85vh;
+    text-align: center;
   }
 }
 
@@ -98,7 +133,7 @@ $xl: 1200px;
 }
 
 @media (max-width: 1010px) {
-  .navbar > .navbar-nav {
+  .navbar>.navbar-nav {
     display: none;
   }
 }
@@ -125,6 +160,7 @@ $xl: 1200px;
   }
 
   .delivery-section {
-    height: 225vh;
+    height: 235vh;
   }
+
 }

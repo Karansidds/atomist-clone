@@ -17,7 +17,9 @@
 
 @media (max-width: 1200px) {
   .delivery-section {
-    height: 138vh; } }
+    height: 138vh; }
+  .platform-diagram {
+    margin-left: 80px; } }
 
 @media (max-width: 992px) {
   .report-section {
@@ -25,7 +27,11 @@
   .report-section__title {
     line-height: 1.4; }
   .delivery-section {
-    height: 135vh; } }
+    height: 135vh; }
+  .platform-diagram {
+    margin-left: 0px; }
+  .platform-diagram {
+    margin-left: 20px; } }
 
 @media (max-width: 768px) {
   .report-section {
@@ -46,7 +52,16 @@
     padding-top: 60px; }
   .delivery-section {
     height: 240vh;
-    margin: 0; } }
+    margin: 0;
+    min-height: 1450px; }
+  .section-platform {
+    height: 100vh;
+    text-align: center; }
+  .platform-diagram {
+    margin-left: 0px; }
+  .atomist-usage {
+    height: 85vh;
+    text-align: center; } }
 
 @media (max-width: 1034px) {
   .sponsor-section {
@@ -70,4 +85,4 @@
   .sponsor-section {
     height: 60vh; }
   .delivery-section {
-    height: 225vh; } }
+    height: 235vh; } }

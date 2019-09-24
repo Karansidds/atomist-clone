@@ -131,13 +131,13 @@ header.header-top::after {
 
 .delivery-section {
   height: 145vh;
-  min-height: 650px;
+  min-height: 900px;
   margin-top: -60px;
   background-color: #eaeaea; }
 
 .section-platform {
   height: 65vh;
-  min-height: 500px;
+  min-height: 475px;
   box-shadow: 1px 10px 10px #eaeaea; }
 
 .platform-diagram {
@@ -148,6 +148,7 @@ header.header-top::after {
 
 .atomist-usage {
   height: 60vh;
+  min-height: 330px;
   background-color: #eaeaea; }
 
 .goals-execution {

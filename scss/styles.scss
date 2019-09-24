@@ -175,8 +175,34 @@ header.header-top::after {
 
 // DELIVERY SECTION
 .delivery-section {
-  height: 130vh;
-  min-height: 650px;
+  height: 145vh;
+  min-height: 900px;
   margin-top: -60px;
   background-color: #eaeaea;
+}
+
+// PLATFORM SECTION 
+.section-platform {
+  height: 65vh;
+  min-height: 475px;
+  box-shadow: 1px 10px 10px #eaeaea // min-height: 500px;
+}
+
+.platform-diagram {
+  height: auto;
+  width: 25rem;
+  margin-top: 40px;
+  margin-left: 150px
+}
+
+// ATOMIST USAGE
+.atomist-usage {
+  height: 60vh;
+  min-height: 330px;
+  background-color: #eaeaea
+}
+
+.goals-execution {
+  height: auto;
+  width: 32rem
 }
