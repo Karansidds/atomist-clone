@@ -149,8 +149,50 @@ header.header-top::after {
 .atomist-usage {
   height: 60vh;
   min-height: 330px;
-  background-color: #eaeaea; }
+  background-color: #d4d1d162;
+  box-shadow: 10px 10px 10px black; }
 
 .goals-execution {
-  height: auto;
-  width: 32rem; }
+  height: 15rem;
+  width: auto; }
+
+.news-banner {
+  height: 63vh;
+  min-height: 350px;
+  background-color: #eaeaea; }
+
+.banner-img {
+  width: 50rem;
+  height: 24rem;
+  position: absolute;
+  left: -250px; }
+
+.peer-connect {
+  height: 80vh;
+  min-height: 450px; }
+
+.connect-title {
+  background: #458283; }
+
+.connect-section {
+  margin-top: 3px; }
+
+.bg-doc {
+  background: url(../images/doc-bg.png) center center;
+  background-size: cover;
+  height: 300px; }
+
+.bg-snippet {
+  background: url(../images/samples-bg.png) center center;
+  background-size: cover;
+  height: 300px; }
+
+.bg-slack {
+  background: url(../images/slack-bg.png) center center;
+  background-size: cover;
+  height: 300px; }
+
+.bg-git {
+  background: url(../images/github-bg.png) center center;
+  background-size: cover;
+  height: 300px; }

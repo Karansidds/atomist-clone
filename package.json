@@ -10,6 +10,8 @@
   "author": "Karan Siddannavar",
   "license": "ISC",
   "dependencies": {
-    "node-sass": "^4.12.0"
+    "csslint": "^1.0.5",
+    "node-sass": "^4.12.0",
+    "stylelint": "^11.0.0"
   }
 }
