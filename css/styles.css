@@ -1,7 +1,7 @@
 html {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   text-rendering: optimizeLegibility; }
 
 body {
@@ -13,6 +13,9 @@ body {
 .font-lg {
   font-size: 1.3rem !important; }
 
+.bg-lgrey {
+  background: #eaeaea; }
+
 /*ESSENTIALS*/
 button {
   border: none;
@@ -20,6 +23,9 @@ button {
 
 button:focus {
   outline: none; }
+
+a:hover {
+  text-decoration: none; }
 
 header.header-top {
   position: absolute;
@@ -168,8 +174,8 @@ header.header-top::after {
   left: -250px; }
 
 .peer-connect {
-  height: 80vh;
-  min-height: 450px; }
+  height: 85vh;
+  min-height: 460px; }
 
 .connect-title {
   background: #458283; }
@@ -196,3 +202,6 @@ header.header-top::after {
   background: url(../images/github-bg.png) center center;
   background-size: cover;
   height: 300px; }
+
+.customer-reviews {
+  height: 70vh; }

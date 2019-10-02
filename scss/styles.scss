@@ -18,6 +18,11 @@ body {
   font-size: 1.3rem !important;
 }
 
+//COLORS
+.bg-lgrey {
+  background: #eaeaea;
+}
+
 /*ESSENTIALS*/
 button {
   border: none;
@@ -26,6 +31,10 @@ button {
 
 button:focus {
   outline: none;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 // HEADER
@@ -88,7 +97,7 @@ header.header-top::after {
   position: absolute;
   top: 28px;
   right: 30px;
-  font-size: 2rem
+  font-size: 2rem;
 }
 
 // FULL SCREEN NAV
@@ -104,7 +113,7 @@ header.header-top::after {
 #dismiss {
   position: absolute;
   top: 5px;
-  right: 35px
+  right: 35px;
 }
 
 // END
@@ -181,18 +190,18 @@ header.header-top::after {
   background-color: #eaeaea;
 }
 
-// PLATFORM SECTION 
+// PLATFORM SECTION
 .section-platform {
   height: 65vh;
   min-height: 475px;
-  box-shadow: 1px 10px 10px #eaeaea // min-height: 500px;
+  box-shadow: 1px 10px 10px #eaeaea; // min-height: 500px;
 }
 
 .platform-diagram {
   height: auto;
   width: 25rem;
   margin-top: 40px;
-  margin-left: 150px
+  margin-left: 150px;
 }
 
 // ATOMIST USAGE
@@ -200,12 +209,12 @@ header.header-top::after {
   height: 60vh;
   min-height: 330px;
   background-color: #d4d1d162;
-  box-shadow: 10px 10px 10px black
+  box-shadow: 10px 10px 10px black;
 }
 
 .goals-execution {
   height: 15rem;
-  width: auto
+  width: auto;
 }
 
 // NEWS BANNER
@@ -226,8 +235,8 @@ header.header-top::after {
 
 // PEER SECTION
 .peer-connect {
-  height: 80vh;
-  min-height: 450px
+  height: 85vh;
+  min-height: 460px;
 }
 
 .connect-title {
@@ -237,7 +246,6 @@ header.header-top::after {
 .connect-section {
   margin-top: 3px;
 }
-
 
 // BACKGROUND IMAGES
 .bg-doc {
@@ -262,4 +270,9 @@ header.header-top::after {
   background: url(../images/github-bg.png) center center;
   background-size: cover;
   height: 300px;
+}
+
+// CUSTOMER-REVIEWS
+.customer-reviews {
+  height: 70vh;
 }

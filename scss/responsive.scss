@@ -74,6 +74,7 @@ $xl: 1200px;
   }
 }
 
+
 @media (max-width: $md) {
   .report-section {
     height: 105vh;
@@ -123,6 +124,11 @@ $xl: 1200px;
   .atomist-usage {
     height: 85vh;
     text-align: center;
+  }
+
+  // PEER SECTION
+  .peer-connect {
+    min-height: 1350px;
   }
 }
 

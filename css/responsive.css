@@ -61,7 +61,9 @@
     margin-left: 0px; }
   .atomist-usage {
     height: 85vh;
-    text-align: center; } }
+    text-align: center; }
+  .peer-connect {
+    min-height: 1350px; } }
 
 @media (max-width: 1034px) {
   .sponsor-section {
