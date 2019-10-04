@@ -70,6 +70,17 @@ header.header-top::after {
   justify-content: start;
   align-items: center; }
 
+.dark-mode {
+  background-color: #282828;
+  color: white !important; }
+
+.dark-icon {
+  position: absolute;
+  top: 90px;
+  right: 30px;
+  color: white;
+  cursor: pointer; }
+
 .nav-menu {
   position: absolute;
   top: 28px;
@@ -175,7 +186,7 @@ header.header-top::after {
 
 .peer-connect {
   height: 85vh;
-  min-height: 460px; }
+  min-height: 480px; }
 
 .connect-title {
   background: #458283; }
@@ -204,4 +215,22 @@ header.header-top::after {
   height: 300px; }
 
 .customer-reviews {
-  height: 70vh; }
+  position: relative;
+  height: 70vh;
+  min-height: 400px; }
+
+.icon {
+  position: absolute;
+  top: -10px;
+  left: 410px;
+  z-index: 100; }
+
+.footer-section {
+  height: 150vh;
+  background-color: #F7F7F7;
+  background-image: url(../images/footer-background.png);
+  background-repeat: no-repeat;
+  background-size: 100%; }
+
+.footer-logo {
+  padding-top: 140px; }
