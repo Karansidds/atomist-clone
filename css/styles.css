@@ -13,6 +13,12 @@ body {
 .font-lg {
   font-size: 1.3rem !important; }
 
+.font-sm {
+  font-size: 0.9rem; }
+
+.font-xsm {
+  font-size: 0.4rem; }
+
 .bg-lgrey {
   background: #eaeaea; }
 
@@ -226,8 +232,8 @@ header.header-top::after {
   z-index: 100; }
 
 .footer-section {
-  height: 150vh;
-  background-color: #F7F7F7;
+  height: 130vh;
+  background-color: #f7f7f7;
   background-image: url(../images/footer-background.png);
   background-repeat: no-repeat;
   background-size: 100%; }
