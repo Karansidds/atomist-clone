@@ -22,6 +22,8 @@
     margin-left: 80px; } }
 
 @media (max-width: 992px) {
+  .banner {
+    background-position: 540px -2px; }
   .report-section {
     height: 75vh; }
   .report-section__title {
@@ -34,6 +36,9 @@
     margin-left: 20px; } }
 
 @media (max-width: 768px) {
+  .banner {
+    background-size: 60%;
+    background-position: 400px -2px !important; }
   .report-section {
     height: 105vh;
     text-align: center; }
@@ -62,8 +67,18 @@
   .atomist-usage {
     height: 85vh;
     text-align: center; }
+  .news-banner {
+    height: 85vh; }
+  .banner-img {
+    top: 240px;
+    left: 50px;
+    width: 35rem;
+    height: 20rem; }
   .peer-connect {
-    min-height: 1350px; } }
+    min-height: 1350px; }
+  .footer-section {
+    height: 115vh;
+    background-size: 200%; } }
 
 @media (max-width: 1034px) {
   .sponsor-section {
@@ -77,9 +92,16 @@
   .nav-menu {
     display: none; } }
 
+@media (max-width: 870px) {
+  .banner {
+    background-position: 510px -2px; } }
+
 @media (max-width: 665px) {
   .header-section {
-    min-height: 600px; }
+    min-height: 500px; }
+  .banner {
+    background-size: 80%;
+    background-position: 250px -2px !important; }
   .sponsor-section {
     margin-top: 20px; } }
 

@@ -71,8 +71,8 @@ header.header-top::after {
 
 // BANNER
 .header-section {
-  height: 90vh;
-  min-height: 500px;
+  height: 80vh;
+  min-height: 400px;
 }
 
 .banner {
@@ -249,7 +249,7 @@ header.header-top::after {
   width: 50rem;
   height: 24rem;
   position: absolute;
-  left: -250px;
+  left: -100px;
 }
 
 // .news-details {}
@@ -309,7 +309,8 @@ header.header-top::after {
 
 // FOOTER-SECTION
 .footer-section {
-  height: 130vh;
+  height: 125vh;
+  min-height: 670px;
   background-color: #f7f7f7;
   background-image: url(../images/footer-background.png);
   background-repeat: no-repeat;

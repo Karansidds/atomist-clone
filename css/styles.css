@@ -53,8 +53,8 @@ header.header-top::after {
   border-radius: 5px; }
 
 .header-section {
-  height: 90vh;
-  min-height: 500px; }
+  height: 80vh;
+  min-height: 400px; }
 
 .banner {
   background-image: url(../images/version-wheel.png);
@@ -188,7 +188,7 @@ header.header-top::after {
   width: 50rem;
   height: 24rem;
   position: absolute;
-  left: -250px; }
+  left: -100px; }
 
 .peer-connect {
   height: 85vh;
@@ -232,7 +232,8 @@ header.header-top::after {
   z-index: 100; }
 
 .footer-section {
-  height: 130vh;
+  height: 125vh;
+  min-height: 670px;
   background-color: #f7f7f7;
   background-image: url(../images/footer-background.png);
   background-repeat: no-repeat;
