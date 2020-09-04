@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "csslint": "^1.0.5",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "stylelint": "^11.0.0"
   }
 }
